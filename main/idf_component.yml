@@ -1,0 +1,6 @@
+## IDF Component Manager manifest
+dependencies:
+  idf: ">=5.0"
+  espressif/esp-tflite-micro: "*"
+  # cJSON was removed from ESP-IDF core in v6.0 -- now comes from the registry
+  espressif/cjson: "*"
